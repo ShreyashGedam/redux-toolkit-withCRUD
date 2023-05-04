@@ -1,0 +1,66 @@
+.container {
+  margin: auto;
+  width: 70%;
+}
+
+.inputs {
+  margin-top: 10vh;
+  border: 1px solid black;
+}
+
+.inputs > div {
+  display: flex;
+  align-items: center;
+}
+
+.inputs input {
+  height: 20px;
+  margin-left: 2%;
+}
+
+.names {
+  border: 1px solid;
+}
+
+.namesdetails {
+  display: flex;
+  font-size: 24px;
+  align-items: center;
+}
+
+.namesdetails p:first-child {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.namesdetails input {
+  margin-left: 15px;
+}
+
+.warning {
+  color: red;
+}
+
+.namesdetails_main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.namesdetails-buttons .edit {
+  margin-right: 10px;
+  background-color: yellow;
+}
+
+.namesdetails-buttons .save {
+  background-color: greenyellow;
+  margin-right: 10px;
+}
+
+.namesdetails-buttons button {
+  width: 50px;
+}
+
+.namesdetails-buttons button:last-child {
+  margin-right: 10px;
+  background-color: red;
+}
